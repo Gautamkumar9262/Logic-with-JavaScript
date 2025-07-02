@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+</head>
+<body>
+    <h1>Javascript Arrow Function</h1>
+    <div>
+        <p id="p1"></p>
+        <button onclick="add(3,4)">Add</button>
+    </div>
+
+    <script>
+        // function add(a, b) 
+        add=(a,b)=>{
+
+            let c=a+b;
+           document.getElementById('p1').innerHTML=("Sum of "+a+" and "+b+" is "+c);
+        }
+    </script>
+</body>
+</html>
